@@ -4,8 +4,31 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>cpnt201-a3</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class=" font-sans bg-gray-600 text-lg m-4">
+  <nav class="h-52 m-0 p-0 bg-indigo-300 md:h-14">
+    <ul class="list-none w-screen text-center md:flex md:justify-around md:m-auto md:h-12">
+      <li><a class="block hover:bg-indigo-600 py-3 md:inline-block" href="#">Link one</a></li>
+      <li><a class="block hover:bg-indigo-600 py-3 md:inline-block"  href="#">Link two</a></li>
+      <li><a class="block hover:bg-indigo-600 py-3 md:inline-block"  href="#">Link three</a></li>
+      <li><a class="block hover:bg-indigo-600 py-3 md:inline-block"  href="#">Link four</a></li>
+    </ul>
+  </nav>
+  <section class="flex justify-center items-center">
+  <!--card content-->  
+  <!--card link to lorem picsum-->
+  <a class="m-a my-12 p-4 max-w-xs rounded-2xl" href="https://picsum.photos/">
+    <article class="m-a my-12 p-4 max-w-xs rounded-2xl bg-indigo-300 position: relative hover:bg-indigo-600">
   
+    <h1 class="text-center text-3xl">About Me</h1>
+    <!--placeholder image-->
+    <img src="https://picsum.photos/id/412/400/200" alt="forest,mountain with body of water" class="block">
+    <p class="m-auto">My name is Emily Seafoot and I am based in calgary alberta. I am currently a web development student at <em>SAIT</em>. I have a background in music and digital design. My skills are adobe illustrator, adobe photoshop, adobe xd, branding, copywriting, logo design, web development, html and css.</p>
+  
+  </article>
+</a>
+</section>
+</body>
 </body>
 </html>
